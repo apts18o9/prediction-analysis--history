@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+
+# Node.js backend build artifacts and logs
+/backend/build/
+/backend/logs/
+/backend/*.log
+/backend/pids
+/backend/pids/*.pid
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/.nyc_output
+/backend/coverage
+/backend/.grunt
+/backend/bower_components
+
+# Environment variables
+# Customize this path based on where your env file is located in the backend directory
+/backend/.env
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+
+# Next.js frontend build artifacts and caches
+/frontend/.next/
+/frontend/out/
+/frontend/coverage/
+
+# Next.js environment variables (same as above but specific to frontend)
+# Customize this path based on where your env file is located in the frontend directory
+/frontend/.env
+/frontend/.env*.local
+
+# Editor/OS temporary files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
